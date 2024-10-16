@@ -1,11 +1,10 @@
 const logotext = "import logok from '../assets/images/logok.png";
 const meta = {
-    title: "Laza",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Laza"
 };
 
 const introdata = {
-    title: "I’m Lazaniaina",
+    title: " Lazaniaina",
     animated: {
         first: "J'aime coder",
         second: "Je code des sites web sympas",

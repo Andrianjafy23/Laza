@@ -63,7 +63,7 @@ const Headermain = () => {
             <a href={socialprofils.facebook}><FaFacebookF style={{fontSize:"40px"}}/></a>
             
             </div>
-            <img src={logok} alt="Logo" className="logo"  style={{background:'none', backgroundColor:'transparent', display:'block', border:'none'}}/>
+            <img src={logok} alt="Logo" className="logo"  style={{backgroundColor:'none', borderRadius: '50px 100px 10px 40px'}}/>
           </div>
         </div>
       </header>
