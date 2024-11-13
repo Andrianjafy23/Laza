@@ -184,7 +184,10 @@
 }
 
 .the_menu .menu_item>a:hover {
-    color: var(--text-color-3);
+    color: rgb(20, 58, 226);
+}
+.co:hover {
+    color: rgb(20, 58, 226) ;
 }
 
 @media (min-width: 768px) {

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import { logotext ,socialprofils } from "../content_option";
+import {socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
 import logok from '../assets/images/logok.png';
 import { FaFacebookF } from "react-icons/fa";
@@ -57,20 +57,16 @@ const Headermain = () => {
           </div>
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-4">
             <div className="d-flex" style={{gap:"40px"}}>
-            <a href={socialprofils.github}><FaGithub style={{fontSize:"40px"}}/></a>
-            <a href="laza02340@gmail.com"><MdEmail style={{fontSize:"40px"}}/></a>
-            <a href="https://www.linkedin.com/in/laza-niaina-4748262b6/"><CiLinkedin style={{fontSize:"40px"}} /></a>
-            <a href={socialprofils.facebook}><FaFacebookF style={{fontSize:"40px"}}/></a>
+             <a className="co" href={socialprofils.github}><FaGithub style={{fontSize:"40px"}}/></a>
+             <a className="co" href="laza02340@gmail.com"><MdEmail style={{fontSize:"40px"}}/></a>
+             <a  className="co" href="https://www.linkedin.com/in/laza-niaina-4748262b6/"><CiLinkedin style={{fontSize:"40px"}} /></a>
+             <a className="co" href={socialprofils.facebook}><FaFacebookF style={{fontSize:"40px"}}/></a>
             
             </div>
             <img src={logok} alt="Logo" className="logo"  style={{backgroundColor:'none', borderRadius: '50px 100px 10px 40px'}}/>
           </div>
-        </div>
+        </div>  
       </header>
-      <div className="br-top"></div>
-      <div className="br-bottom"></div>
-      <div className="br-left"></div>
-      <div className="br-right"></div>
       
     </>
   );
