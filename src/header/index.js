@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-import { VscGrabber, VscClose } from "react-icons/vsc";
+import {  VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import {socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
@@ -9,6 +9,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
@@ -28,7 +29,7 @@ const Headermain = () => {
           <div className="d-flex align-items-center">
           <Themetoggle />
           <button className="menu__button  nav_ac" onClick={handleToggle}>
-            {!isActive ? <VscClose /> : <VscGrabber />}
+            {!isActive ? <VscClose /> : <RxHamburgerMenu  />}
           </button>
           
           </div>

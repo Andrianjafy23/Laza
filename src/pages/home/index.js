@@ -25,7 +25,7 @@ export const Home = () => {
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
               <div className="intro mx-auto">
-              <h2 className="mb-1x" style={{color: '#b78585',textShadow: 'rgb(28 103 183 / 90%) 2px 0px 2px', fontSize:'50px'}}>{introdata.title}</h2>
+              <h2 className="mb-1x" style={{color: '#3C4D61', fontSize:'50px'}}>{introdata.title}</h2>
 
                 <h1 className="fluidz-48 mb-1x">
                   <Typewriter

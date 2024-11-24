@@ -114,7 +114,7 @@ export const ContactUs = () => {
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
               <Row>
-                <Col lg="6" className="form-group">
+                <Col lg="6" className="form-group" >
                   <input
                     className="form-control"
                     id="name"
@@ -140,6 +140,7 @@ export const ContactUs = () => {
                 </Col>
               </Row>
               <textarea
+                style={{borderRadius:'5px'}}
                 className="form-control rounded-0"
                 id="message"
                 name="message"

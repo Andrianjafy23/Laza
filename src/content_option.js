@@ -11,7 +11,7 @@ const introdata = {
         third: "Je suis passionné par les nouvelles technologies."
         
     },
-    description: " Développeur spécialisé en JavaScript, \n avec une expertise en React.js et Node.js. \n Je suis passionné par le développement web  \n et la création d'applications dynamiques",
+    description: " Développeur spécialisé en JavaScript, maîtrisant React.js, React Native et Node.js, avec une solide expérience dans la création de sites web, d'applications mobiles, et de logiciels. Enthousiaste à l'idée d'apprendre et d'intégrer de nouvelles technologies.",
     your_img_url: "import profileImage from '../../assets/images/profile.png'",
 };
 

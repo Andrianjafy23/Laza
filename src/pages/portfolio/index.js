@@ -47,13 +47,16 @@ export const Portfolio = () => {
            onMouseOut={() => setHoveredImage(prev => ({ ...prev, concours: images.concours[0] }))}>
         <img src={hoveredImage.concours} alt="Concours" />
       </div>
-
+      <a href={' https://andrianjafy23.github.io/laza192/'}>
       <h4 className="explication">Projet mémoire</h4>
       <div className="image-container"
            onMouseOver={() => handleMouseOver('memoire')}
            onMouseOut={() => setHoveredImage(prev => ({ ...prev, memoire: images.memoire[0] }))}>
         <img src={hoveredImage.memoire} alt="Mémoire" />
       </div>
+      </a>
+      
+      
 
       <h4 className="explication">Stage OMDA</h4>
       <div className="image-container"

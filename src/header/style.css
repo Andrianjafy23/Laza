@@ -15,9 +15,9 @@
 }
 
 .menu__button svg {
-    width: 2em;
+    width: 1.5em;
     height: 2em;
-    fill: #361dda;
+    fill: #1D6DDF;
     color: var(--text-color-2);
 }
 
@@ -184,10 +184,10 @@
 }
 
 .the_menu .menu_item>a:hover {
-    color: rgb(20, 58, 226);
+    color: #1D6DDF;
 }
 .co:hover {
-    color: rgb(20, 58, 226) ;
+    color: #1D6DDF ;
 }
 
 @media (min-width: 768px) {

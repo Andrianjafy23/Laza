@@ -104,7 +104,7 @@ section {
     padding: 4px 19px;
     color: var(--secondary-color);
     position: relative;
-    border: #361dda 2px solid;
+    border: #1D6DDF 2px solid;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
     cursor: pointer;
@@ -169,7 +169,7 @@ section {
 }
 
 #button_p {
-    background: rgb(114, 109, 109);
+    background: #3C4D61;
     color: var(--primary-color);
     border-radius: 10px;
 }
