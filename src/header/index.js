@@ -4,7 +4,7 @@ import {  VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import {socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
-import logok from '../assets/images/logok.png';
+import logok from '../assets/images/laza.png';
 import { FaFacebookF } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -64,7 +64,6 @@ const Headermain = () => {
              <a className="co" href={socialprofils.facebook}><FaFacebookF style={{fontSize:"40px"}}/></a>
             
             </div>
-            <img src={logok} alt="Logo" className="logo"  style={{backgroundColor:'none', borderRadius: '50px 100px 10px 40px'}}/>
           </div>
         </div>  
       </header>
