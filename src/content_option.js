@@ -36,56 +36,7 @@ const worktimeline = [{
     },
 ];
 
-const Competances = [{
-        name: "Javascript",
-        value: 70,
-    },
-    {
-        name: "React",
-        value: 75,
-    },
-    {
-        name: "Node",
-        value: 70,
-    },
-    {
-        name: "Python",
-        value: 45,
-    },
-    {
-        name: "php",
-        value: 40,
-    },
-    {
-        name: "C++",
-        value: 40,
-    },
-    {
-        name: "HTML",
-        value: 90,
-    },
-    {
-        name: "CSS", 
-        value: "85",
-    },
-    {
-        name: "Git",
-        value:"90",
-    },
-    {
-        name: "Github",
-        value: "80",
-    },
-    {
-        name: "Mysql",
-        value: "80",
-    },
-    {
-         name: 'PostgreSql',
-         value: "80",
-    }
 
-];
 
 const services = [{
         title: "OMDA (Offiche Malgache du Droit D'Auteur)  (3 mois) ",
