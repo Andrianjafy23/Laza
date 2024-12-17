@@ -11,12 +11,12 @@ const introdata = {
         third: "Je suis passionné par les nouvelles technologies."
         
     },
-    description: " Développeur spécialisé en JavaScript, maîtrisant React.js, React Native et Node.js, avec une solide expérience dans la création de sites web, d'applications mobiles, et de logiciels. Enthousiaste à l'idée d'apprendre et d'intégrer de nouvelles technologies.",
+    description: " Développeur spécialisé en JavaScript, maîtrisant React.js, Node.js,Laravel, avec une solide expérience dans la création de sites web, d'applications web,et de logiciels. Enthousiaste à l'idée d'apprendre et d'intégrer de nouvelles technologies.",
     your_img_url: "import profileImage from '../../assets/images/profile.png'",
 };
 
 const dataabout = {
-    title: "Un peu sur moi",
+    title: "",
     aboutme: "Je m'appelle ANDRIANJAFY Lazaniaina Narcisse, mais on m'appelle LAZA. Je suis développeur JavaScript.",
 };
 const worktimeline = [{

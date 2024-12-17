@@ -98,3 +98,52 @@
         transform: translateZ(0);
     }
 }
+/* Styles de base */
+.section {
+    font-family: Arial, sans-serif;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  div {
+    margin-bottom: 20px;
+  }
+  
+  .js-icon, .html-icon, .react-icon, .css-icon, .bootstrap-icon, .tailwind-icon, .php-icon, .node-icon, .laravel-icon, .mysql-icon, .postgres-icon, .mongodb-icon, .git-icon, .github-icon, .json-icon, .api-icon, .linux-icon, .windows-icon, .figma-icon{
+    font-size: 3rem;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+ 
+  
+
+  .js-icon { color: #f7df1e; } 
+  .html-icon { color: #e34f26; } 
+  .react-icon { color: #61dafb; } 
+  .css-icon { color: #264de4; } 
+  .bootstrap-icon { color: #7952b3; } 
+  .tailwind-icon { color: #38bdf8; } 
+  
+  .php-icon { color: #777bb4; } 
+  .node-icon { color: #339933; } 
+  .laravel-icon { color: #ff2d20; } 
+  
+  .mysql-icon { color: #00758f; } 
+  .postgres-icon { color: #336791; } 
+  .mongodb-icon { color: #47a248; } 
+  
+  .git-icon { color: #f34f29; } 
+  .github-icon { color: #333; } 
+  .json-icon { color: #cb3837; } 
+  .api-icon { color: #4caf50; } 
+  
+  .linux-icon { color: #fcc624; } 
+  .windows-icon { color: #00a4ef; } 
+  .figma-icon {color: #ff2d23}
+  
+  

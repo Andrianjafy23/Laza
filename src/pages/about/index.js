@@ -2,11 +2,30 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
+import { TbBrandJavascript } from "react-icons/tb";
+import { FaPhp } from "react-icons/fa";
+import { RiReactjsFill } from "react-icons/ri";
+import { IoLogoHtml5 } from "react-icons/io5";
+import { FaCss3Alt } from "react-icons/fa";
+import { BiLogoBootstrap } from "react-icons/bi";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { DiNodejs } from "react-icons/di";
+import { FaLaravel } from "react-icons/fa";
+import { TbJson } from "react-icons/tb";
+import { TbApi } from "react-icons/tb";
+import { SiMysql } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { SiMongodb } from "react-icons/si";
+import { FaLinux } from "react-icons/fa";
+import { IoLogoWindows } from "react-icons/io5";
+import { FaFigma } from "react-icons/fa";
+
 import {
   dataabout,
   meta,
   worktimeline,
-  Competances,
   services,
 } from "../../content_option";
 
@@ -60,23 +79,50 @@ export const About = () => {
             <h3 className="color_sec py-4">Compétences</h3>
           </Col>
           <Col lg="7">
-            {Competances.map((data, i) => {
-              return (
-                <div key={i}>
-                  <h3 className="progress-title">{data.name}</h3>
-                  <div className="progress">
-                    <div
-                      className="progress-bar"
-                      style={{
-                        width: `${data.value}%`,
-                      }}
-                    >
-                      <div className="progress-value">{data.value}%</div>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
+          <div>
+    <h4>Frontend</h4>
+    <div style={{display:"flex", flexDirection:"row", gap:"30px"}}>
+      <TbBrandJavascript class="js-icon" />
+      <IoLogoHtml5 class="html-icon" />
+      <RiReactjsFill class="react-icon" />
+      <FaCss3Alt class="css-icon" />
+      <BiLogoBootstrap class="bootstrap-icon" />
+      <RiTailwindCssFill class="tailwind-icon" />
+    </div>
+  </div>
+  <div>
+    <h4>Backend</h4>
+    <div style={{display:"flex", flexDirection:"row", gap:"30px"}}>
+      <FaPhp class="php-icon" />
+      <DiNodejs class="node-icon" />
+      <FaLaravel class="laravel-icon" />
+    </div>
+  </div>
+  <div>
+    <h4>Base de données</h4>
+    <div style={{display:"flex", flexDirection:"row", gap:"30px"}}>
+      <SiMysql class="mysql-icon" />
+      <BiLogoPostgresql class="postgres-icon" />
+      <SiMongodb class="mongodb-icon" />
+    </div>
+  </div>
+  <div>
+    <h4>Outils</h4>
+    <div style={{display:"flex", flexDirection:"row", gap:"30px"}}>
+      <FaGitAlt class="git-icon" />
+      <FaGithub class="github-icon" />
+      <TbJson class="json-icon" />
+      <TbApi class="api-icon" />
+      <FaFigma  class="figma-icon"/>
+    </div>
+  </div>
+  <div>
+    <h4>Système d'exploitation</h4>
+    <div style={{display:"flex", flexDirection:"row", gap:"30px"}}>
+      <FaLinux class="linux-icon" />
+      <IoLogoWindows class="windows-icon" />
+    </div>
+  </div>
           </Col>
         </Row>
         <Row className="sec_sp">
