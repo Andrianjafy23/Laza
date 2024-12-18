@@ -86,7 +86,6 @@ export {
     dataabout,
     dataportfolio,
     worktimeline,
-    Competances,
     services,
     introdata,
     contactConfig,

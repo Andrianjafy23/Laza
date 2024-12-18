@@ -85,11 +85,16 @@ section {
     font-size: 30px;
     margin-bottom: 50px;
     font-weight: 700;
+    font-family: "Roboto Slab", serif;
 }
 
 .intro_sec .text h3 {
     font-size: 16px;
     font-weight: 700;
+    font-family: "Roboto Slab", serif;
+}
+h2{
+    font-family: "Roboto Slab", serif;
 }
 
 .intro_sec .h_bg-image {

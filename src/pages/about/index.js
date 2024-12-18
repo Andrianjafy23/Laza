@@ -40,7 +40,7 @@ export const About = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">À propos de moi</h1>
+            <h1 className="mb-4">À propos de moi</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -60,10 +60,10 @@ export const About = () => {
           </Col>
           <Col lg="7">
             <table className="table caption-top">
-              <tbody>
+              <tbody >
                 {worktimeline.map((data, i) => {
                   return (
-                    <tr key={i}>
+                    <tr key={i} >
                       <th scope="row">{data.jobtitle}</th>
                       <td>{data.where}</td>
                       <td>{data.date}</td>
@@ -81,7 +81,7 @@ export const About = () => {
           <Col lg="7">
           <div>
     <h4>Frontend</h4>
-    <div style={{display:"flex", flexDirection:"row", gap:"30px"}}>
+    <div style={{display:"flex", flexDirection:"row", gap:"30px", marginTop:"25px", marginBottom:"40px"}}>
       <TbBrandJavascript class="js-icon" />
       <IoLogoHtml5 class="html-icon" />
       <RiReactjsFill class="react-icon" />
@@ -92,7 +92,7 @@ export const About = () => {
   </div>
   <div>
     <h4>Backend</h4>
-    <div style={{display:"flex", flexDirection:"row", gap:"30px"}}>
+    <div style={{display:"flex", flexDirection:"row", gap:"30px", marginTop:"25px", marginBottom:"40px"}}>
       <FaPhp class="php-icon" />
       <DiNodejs class="node-icon" />
       <FaLaravel class="laravel-icon" />
@@ -100,7 +100,7 @@ export const About = () => {
   </div>
   <div>
     <h4>Base de données</h4>
-    <div style={{display:"flex", flexDirection:"row", gap:"30px"}}>
+    <div style={{display:"flex", flexDirection:"row", gap:"30px", marginTop:"25px", marginBottom:"40px"}}>
       <SiMysql class="mysql-icon" />
       <BiLogoPostgresql class="postgres-icon" />
       <SiMongodb class="mongodb-icon" />
@@ -108,7 +108,7 @@ export const About = () => {
   </div>
   <div>
     <h4>Outils</h4>
-    <div style={{display:"flex", flexDirection:"row", gap:"30px"}}>
+    <div style={{display:"flex", flexDirection:"row", gap:"30px", marginTop:"25px", marginBottom:"40px"}}>
       <FaGitAlt class="git-icon" />
       <FaGithub class="github-icon" />
       <TbJson class="json-icon" />
@@ -118,7 +118,7 @@ export const About = () => {
   </div>
   <div>
     <h4>Système d'exploitation</h4>
-    <div style={{display:"flex", flexDirection:"row", gap:"30px"}}>
+    <div style={{display:"flex", flexDirection:"row", gap:"30px", marginTop:"25px", marginBottom:"40px"}}>
       <FaLinux class="linux-icon" />
       <IoLogoWindows class="windows-icon" />
     </div>

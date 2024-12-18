@@ -5,6 +5,7 @@
 .table th {
     color: var(--text-color);
     background-color: transparent;
+    font-family: "Roboto Slab", serif;
 } 
 
 .t_border {
@@ -105,7 +106,8 @@
   
   h4 {
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
   }
   
   div {
@@ -146,4 +148,16 @@
   .windows-icon { color: #00a4ef; } 
   .figma-icon {color: #ff2d23}
   
-  
+  .mb-4{
+    font-family: "Roboto Slab", serif;
+  }
+  p{
+    font-family: "Roboto Slab", serif;
+  }
+  .color_sec {
+    color: var(--secondary-color);
+    font-family: "Roboto Slab", serif;
+}
+h5{
+   font-family: "Roboto Slab", serif;
+}
