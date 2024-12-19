@@ -128,9 +128,10 @@ export const ContactUs = () => {
                 </Col>
                 <Col lg="6" className="form-group">
                   <input
-                    className="form-control rounded-0"
+                    className="form-control "
                     id="email"
                     name="email"
+
                     placeholder="Email"
                     type="email"
                     value={formData.email || ""}
@@ -141,7 +142,7 @@ export const ContactUs = () => {
               </Row>
               <textarea
                 style={{borderRadius:'5px'}}
-                className="form-control rounded-0"
+                className="form-control "
                 id="message"
                 name="message"
                 placeholder="Message"

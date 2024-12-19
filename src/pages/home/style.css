@@ -109,7 +109,7 @@ h2{
     padding: 4px 19px;
     color: var(--secondary-color);
     position: relative;
-    border: #1D6DDF 2px solid;
+    border: #1D6DDF 1.5px solid;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
     cursor: pointer;
