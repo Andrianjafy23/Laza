@@ -41,13 +41,13 @@ const Headermain = () => {
               <div className="menu__container p-3">
                 <ul className="the_menu">
                   <li className="menu_item ">
-                  <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
+                  <Link  onClick={handleToggle} to="/" className="my-3">Accueil</Link>
                   </li>
                   <li className="menu_item">
-                    <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
+                    <Link  onClick={handleToggle} to="/portfolio" className="my-3">Portfolio</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
+                  <Link onClick={handleToggle} to="/about" className="my-3"> À propos</Link>
                   </li>
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
@@ -59,7 +59,7 @@ const Headermain = () => {
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-4">
             <div className="d-flex" style={{gap:"40px"}}>
              <a className="co" href={socialprofils.github}><FaGithub style={{fontSize:"40px"}}/></a>
-             <a className="co" href="laza02340@gmail.com"><MdEmail style={{fontSize:"40px"}}/></a>
+             <a className="co" href="mailto:laza02340@gmail.com"><MdEmail style={{fontSize:"40px"}}/></a>
              <a  className="co" href="https://www.linkedin.com/in/laza-niaina-4748262b6/"><CiLinkedin style={{fontSize:"40px"}} /></a>
              <a className="co" href={socialprofils.facebook}><FaFacebookF style={{fontSize:"40px"}}/></a>
             
