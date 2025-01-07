@@ -22,7 +22,7 @@ export const Home = () => {
           <div className=" order-lg-2 h-100 " style={{display:"flex", flexDirection:"column",gap:"15px", alignItems:"center"}}>
             <img className="image" src={sary}/>
             <a
-              href="https://andrianjafy23.github.io/Laza/CV.pdf" 
+              href="https://andrianjafy23.github.io/Laza/Laza-CV.pdf" 
               download="CV_Lazaniaina.pdf" 
               className="ac_btn btn"
               style={{ marginLeft: "83px" }}

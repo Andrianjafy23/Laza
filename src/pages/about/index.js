@@ -81,7 +81,7 @@ export const About = () => {
           <Col lg="7">
           <div>
     <h4>Frontend</h4>
-    <div style={{display:"flex", flexDirection:"row", gap:"30px", marginTop:"25px", marginBottom:"40px"}}>
+    <div style={{display:"flex", flexDirection:"row", gap:"30px", marginTop:"25px", marginBottom:"40px" }}>
       <TbBrandJavascript class="js-icon" />
       <IoLogoHtml5 class="html-icon" />
       <RiReactjsFill class="react-icon" />

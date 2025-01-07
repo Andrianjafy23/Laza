@@ -119,6 +119,8 @@
     border: 2px solid;
     border-radius: 10px;
     padding: 5px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
   }
   
  
@@ -160,4 +162,81 @@
 }
 h5{
    font-family: "Roboto Slab", serif;
+}
+
+/* Style général pour les icônes */
+.js-icon, .html-icon, .react-icon, .css-icon, .bootstrap-icon, .tailwind-icon,
+.php-icon, .node-icon, .laravel-icon, .mysql-icon, .postgres-icon, .mongodb-icon,
+.git-icon, .github-icon, .json-icon, .api-icon, .figma-icon, .linux-icon, .windows-icon {
+  font-size: 3rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+/* Animation au survol */
+.js-icon:hover {
+  transform: rotate(360deg) scale(1.2);
+  color: #f0db4f; /* Couleur JavaScript */
+  box-shadow: 0 4px 15px rgba(240, 219, 79, 0.5);
+}
+
+.html-icon:hover {
+  transform: scale(1.2);
+  color: #e34c26; /* Couleur HTML */
+  box-shadow: 0 4px 15px rgba(227, 76, 38, 0.5);
+}
+
+.react-icon:hover {
+  transform: rotate(-360deg) scale(1.2);
+  color: #61dafb; /* Couleur React */
+  box-shadow: 0 4px 15px rgba(97, 218, 251, 0.5);
+}
+
+.css-icon:hover {
+  transform: scale(1.2);
+  color: #264de4; /* Couleur CSS */
+  box-shadow: 0 4px 15px rgba(38, 77, 228, 0.5);
+}
+
+.bootstrap-icon:hover {
+  transform: scale(1.2);
+  color: #563d7c; /* Couleur Bootstrap */
+  box-shadow: 0 4px 15px rgba(86, 61, 124, 0.5);
+}
+
+.tailwind-icon:hover {
+  transform: scale(1.2);
+  color: #38b2ac; /* Couleur Tailwind CSS */
+  box-shadow: 0 4px 15px rgba(56, 178, 172, 0.5);
+}
+
+/* Ajoutez des animations similaires pour les autres icônes */
+.php-icon:hover {
+  transform: scale(1.2);
+  color: #787cb5; /* Couleur PHP */
+  box-shadow: 0 4px 15px rgba(120, 124, 181, 0.5);
+}
+
+.node-icon:hover {
+  transform: rotate(360deg) scale(1.2);
+  color: #43853d; /* Couleur Node.js */
+  box-shadow: 0 4px 15px rgba(67, 133, 61, 0.5);
+}
+
+.git-icon:hover {
+  transform: scale(1.2);
+  color: #f05032; /* Couleur Git */
+  box-shadow: 0 4px 15px rgba(240, 80, 50, 0.5);
+}
+
+.github-icon:hover {
+  transform: scale(1.2);
+  color: #181717; /* Couleur GitHub */
+  box-shadow: 0 4px 15px rgba(24, 23, 23, 0.5);
+}
+
+/* Effet pour Figma */
+.figma-icon:hover {
+  transform: rotate(20deg) scale(1.2);
+  color: #f24e1e; /* Couleur Figma */
+  box-shadow: 0 4px 15px rgba(242, 78, 30, 0.5);
 }
