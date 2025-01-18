@@ -38,7 +38,12 @@ const worktimeline = [{
 
 
 
-const services = [{
+const services = [
+    {
+        title: "ITRAS (Janvier 2025 - Encours) ",
+        description: "Développeur Javascript. Création des site web, applications web, logiciels."
+    },
+    {
         title: "OMDA (Offiche Malgache du Droit D'Auteur)  (3 mois) ",
         description: "Création d’un logiciel de stockage de données pour l’ OMDA. Cette application est développée en utilisant React.js, Express.js,Node.js, base de données postgresql",
     },

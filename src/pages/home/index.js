@@ -19,7 +19,7 @@ export const Home = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
-          <div className=" order-lg-2 h-100 " style={{display:"flex", flexDirection:"column",gap:"15px", alignItems:"center"}}>
+          <div className=" order-lg-2 h-100 " style={{display:"flex", flexDirection:"column",gap:"50px", alignItems:"center"}}>
             <img className="image" src={sary}/>
             <a
               href="https://andrianjafy23.github.io/Laza/Laza-CV.pdf" 
