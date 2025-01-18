@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Laza/static/css/main.b248887e.css",
-    "main.js": "/Laza/static/js/main.06ef2583.js",
+    "main.css": "/Laza/static/css/main.4999e324.css",
+    "main.js": "/Laza/static/js/main.b82f4fde.js",
     "static/media/login.png": "/Laza/static/media/login.1618dde3eb87688a6ceb.png",
     "static/media/som.png": "/Laza/static/media/som.a48176c2b1734d5f66da.png",
     "static/media/sary.png": "/Laza/static/media/sary.14bc403e47498f7df4f1.png",
@@ -13,11 +13,11 @@
     "static/media/loginomda.png": "/Laza/static/media/loginomda.dcbc0824d1b63876fb51.png",
     "static/media/voyage1.png": "/Laza/static/media/voyage1.e133274605a61d2246f5.png",
     "index.html": "/Laza/index.html",
-    "main.b248887e.css.map": "/Laza/static/css/main.b248887e.css.map",
-    "main.06ef2583.js.map": "/Laza/static/js/main.06ef2583.js.map"
+    "main.4999e324.css.map": "/Laza/static/css/main.4999e324.css.map",
+    "main.b82f4fde.js.map": "/Laza/static/js/main.b82f4fde.js.map"
   },
   "entrypoints": [
-    "static/css/main.b248887e.css",
-    "static/js/main.06ef2583.js"
+    "static/css/main.4999e324.css",
+    "static/js/main.b82f4fde.js"
   ]
 }
